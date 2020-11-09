@@ -4,10 +4,7 @@
   <div class="toolbar">
     <mat-toolbar>
       <div>
-        <h1>
-          Manage Torrents
-        </h1>
-        <p class="hide_mobile" id="qbit_version_info" style="margin-bottom: 0; font-size: 11pt;">
+        <p class="hide_mobile" id="qbit_version_info" style="margin-bottom: 0; font-size: 16px;">
           Qbittorrent {{getAppVersion()}}, API v{{getAPIVersion()}}
         </p>
       </div>
@@ -25,7 +22,7 @@
             &nbsp; Upload
           </button>
 
-          <button disableRipple class="mat-elevation-z1" color="default" mat-fab [matMenuTriggerFor]="menu">
+          <button disableRipple id="menuButton" class="mat-elevation-z1" color="default" mat-fab [matMenuTriggerFor]="menu">
             <mat-icon>person</mat-icon>
           </button>
 

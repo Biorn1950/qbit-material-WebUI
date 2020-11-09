@@ -2,12 +2,11 @@
   background: #1976D2;
   color: white;
 
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
 
-  margin-bottom: 15px;
 
-  height: 80px;
+  height: 55px;
 
   display: flex;
   flex-direction: row;
@@ -20,7 +19,7 @@
 }
 
 .mat-toolbar h1 {
-  font-size: 22pt;
+  font-size: 16px;
 }
 
 
@@ -30,10 +29,14 @@
   justify-content: center;
   align-items: center;
   z-index: 1100;
+  
+
 }
 
-.mat-toolbar #toolbar_actions button{
-  margin-left: 25px;
+.mat-toolbar #toolbar_actions #menuButton{
+  margin-left: 40px;
+  height: 45px;
+  width: 45px;
 }
 
 .mat-toolbar #toolbar_actions #slideToggleTheme {
@@ -88,8 +91,8 @@ app-search-torrents:focus-within {
   flex-grow: 1;
   flex-direction: column;
 
-  padding-left: 8%;
-  padding-right: 8%;
+  padding-left: 1%;
+  padding-right: 1%;
 }
 
 /** For phone screens */

@@ -23,6 +23,42 @@ mat-table {
     height: 73vh;
     overflow: scroll;
 }
+mat-column {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.mat-header-cell:first-of-type {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 15px;
+}
+mat-header-cell {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.mat-header-cell:last-of-type {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-right: 0px;
+}
+
+.mat-cell:first-of-type {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 15px;
+}
+mat-cell {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.mat-cell:last-of-type {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-right: 0px;
+}
+
+
 
 /** Progress bar components */
 .custom_progress_bar {
@@ -95,6 +131,16 @@ mat-header-row {
     cursor: pointer;
 }
 
+
+.mat-cell .mat-icon-button{
+  margin-left: -5px;
+  margin-right: -5px;
+}
+
+
+.mat-cell .first-of-type{
+  left-padding: 0px;
+}
 #deleteTorrents {
     margin: 15px;
     margin-left: 10px;
@@ -132,20 +178,20 @@ mat-header-row {
     word-wrap: break-word;
     word-break: break-word;
 
-    margin-left: 20px;
-
     min-width: 400px;
 }
 
 .mat-column-select {
-    flex: 0 0 3% !important;
+    //flex: 0 0 3% !important;
     overflow-wrap: break-word;
 
     word-wrap: break-word;
     word-break: break-word;
 
-    min-width: 55px;
-    margin-left: 10px;
+    min-width: 40px;
+    max-width: 40px;
+
+
 }
 
 .mat-column-Actions {
@@ -157,10 +203,10 @@ mat-header-row {
 
     justify-content: center;
 
-    margin: 2px;
-
-    min-width: 150px;
+    min-width: 90px;
 }
+
+
 
 .mat-column-Size {
     // flex: 0 0 5% !important;
@@ -169,10 +215,9 @@ mat-header-row {
     word-wrap: break-word;
     word-break: break-word;
 
-    padding-left: 10px;
     justify-content: center;
 
-    min-width: 80px;
+    min-width: 70px;
 }
 
 .mat-column-Progress {
@@ -184,9 +229,7 @@ mat-header-row {
 
     justify-content: center;
 
-    min-width: 180px;
-    margin-left: 10px;
-    margin-right: 10px;
+    min-width: 150px;
 }
 
 .mat-column-Status {
@@ -198,9 +241,7 @@ mat-header-row {
 
     justify-content: center;
 
-    min-width: 140px;
-    margin-left: 10px;
-    margin-right: 10px;
+    min-width: 106px;
 }
 
 .mat-column-Down-Speed {
@@ -212,7 +253,7 @@ mat-header-row {
 
     justify-content: center;
 
-    min-width: 90px;
+    min-width: 85px;
 }
 
 .mat-column-Up-Speed {
@@ -224,7 +265,7 @@ mat-header-row {
 
     justify-content: center;
 
-    min-width: 90px;
+    min-width: 85px;
 }
 
 .mat-column-ETA {
@@ -233,9 +274,6 @@ mat-header-row {
 
     word-wrap: break-word;
     word-break: break-word;
-
-    padding-left: 5px;
-    padding-right: 5px;
 
     justify-content: center;
 
@@ -267,10 +305,9 @@ mat-header-row {
     word-wrap: break-word;
     word-break: break-word;
 
-    padding-left: 5px;
     justify-content: center;
 
-    min-width: 100px;
+    min-width: 70px;
 }
 
 .mat-column-Ratio {
@@ -278,8 +315,9 @@ mat-header-row {
 
   word-wrap: break-word;
   word-break: break-word;
+  justify-content: center;
 
-  min-width: 50px;
+  min-width: 30px;
 }
 
 .mat-column-Last-Activity {

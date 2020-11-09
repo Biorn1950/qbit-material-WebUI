@@ -31,8 +31,8 @@
   padding-right: 0;
 
   max-width: 300px;
-  min-height: 450px;
-
+  min-height: 350px;
+  height: 99%;
   overflow-y: scroll;
 
   mat-nav-list {
@@ -54,11 +54,11 @@
 
 .rightNavigation {
   flex-grow: 1;
-  min-height: 450px;
+  min-height: 350px;
   overflow-y: scroll;
   max-width: 80%;
 
-  height: 100%;
+  height: 99%;
 
   margin-left: 10px;
   padding: 0;
@@ -74,4 +74,8 @@
 
 .active_dark {
   border-right: 3px solid mat-color($dark-primary);
+}
+
+.mat-dialog-actions{
+padding-bottom: 20px;
 }
