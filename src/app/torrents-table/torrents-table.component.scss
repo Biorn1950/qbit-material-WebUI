@@ -21,7 +21,7 @@ mat-spinner {
 
 mat-table {
     height: 73vh;
-    overflow: scroll;
+    overflow: auto;
 }
 mat-column {
     margin-left: 5px;
@@ -229,7 +229,7 @@ mat-header-row {
 
     justify-content: center;
 
-    min-width: 150px;
+    min-width: 140px;
 }
 
 .mat-column-Status {
@@ -317,8 +317,7 @@ mat-header-row {
   word-break: break-word;
   justify-content: center;
 
-  min-width: 30px;
-  max-widht: 30px;
+  min-width: 48px;
 }
 
 .mat-column-Last-Activity {
